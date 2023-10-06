@@ -1,0 +1,77 @@
+#include <Keyboard.h>
+2
+3int go = 9;
+4int stop = 8;
+5int fade = 7;
+6int up = 6;
+7int down = 5;
+8
+9void setup() {
+10  pinMode(go, INPUT_PULLUP);
+11  pinMode(stop, INPUT_PULLUP);
+12  pinMode(fade, INPUT_PULLUP);
+13  pinMode(up, INPUT_PULLUP);
+14  pinMode(down, INPUT_PULLUP);
+15}  //void setup()
+16
+17void loop() {
+18  if (digitalRead(go) == 0) {
+19    Keyboard.write(32);
+20    delay(300);
+21  }
+22  if (digitalRead(stop) == 0) {
+23    Keyboard.write(KEY_ESC);
+24    delay(300);
+25  }
+26  if (digitalRead(fade) == 0) {
+27    Keyboard.write(48);
+28    delay(300);
+29  }
+30  if (digitalRead(up) == 0) {
+31    Keyboard.write(KEY_UP_ARROW);
+32    delay(300);
+33  }
+34  if (digitalRead(down) == 0) {
+35    Keyboard.write(KEY_DOWN_ARROW);
+36    delay(300);
+37  }
+38}  // void loop()
+#include <Keyboard.h>
+
+int go = 9;
+int stop = 8;
+int fade = 7;
+int up = 6;
+int down = 5;
+
+void setup() {
+  pinMode(go, INPUT_PULLUP);
+  pinMode(stop, INPUT_PULLUP);
+  pinMode(fade, INPUT_PULLUP);
+  pinMode(up, INPUT_PULLUP);
+  pinMode(down, INPUT_PULLUP);
+}  //void setup()
+
+void loop() {
+  if (digitalRead(go) == 0) {
+    Keyboard.write(32);
+    delay(300);
+  }
+  if (digitalRead(stop) == 0) {
+    Keyboard.write(KEY_ESC);
+    delay(300);
+  }
+  if (digitalRead(fade) == 0) {
+    Keyboard.write(48);
+    delay(300);
+  }
+  if (digitalRead(up) == 0) {
+    Keyboard.write(KEY_UP_ARROW);
+    delay(300);
+  }
+  if (digitalRead(down) == 0) {
+    Keyboard.write(KEY_DOWN_ARROW);
+    delay(300);
+  }
+}  // void loop()
+
