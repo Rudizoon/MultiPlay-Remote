@@ -1,8 +1,6 @@
 # MultiPlay-Remote
 MultiPlay Remote Control
 
-Project Description
-
 Shortly after discovering MultiPlay*, I decided to use this excellent program for all my sound and
 video cue playing in the local amateur theatre I'm involved with.  It meets all my needs plus more. 
 
