@@ -22,8 +22,8 @@ the code, less than this can cause repetition, and more than this created excess
 
 I created some layouts in Corel Draw/Inkscape, one to assist in placing the right sized holes for
 the buttons in the right places, the other for the artwork that goes behind the buttons on adhesive
-paper.  A copy of this artwork can be found below, under "Downloadable files".  Please note that if
-you wish to use this, you will need to adjust this for the box and button sizes you decide to use.
+paper.  A copy of this artwork can be downloaded from here.  Please note that if you wish to use
+this, you will need to adjust this for the box and button sizes you decide to use.
 I sellotaped (cellulose tape) the drilling guide one onto the box, and drilled the holes with a 4mm
 drill bit.  I then reamed them to the correct size.  I don't recommend drilling to the required size
 as the larger drill bits tend to tear the plastic. 
