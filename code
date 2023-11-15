@@ -17,7 +17,9 @@ void setup() {
 void loop() {
   if (digitalRead(go) == 0) {
     Keyboard.write(32);
-    delay(300);
+    delay(100);
+    while (!digitalRead(go)){}
+    delay(100);
   }
   if (digitalRead(stop) == 0) {
     Keyboard.write(KEY_ESC);
